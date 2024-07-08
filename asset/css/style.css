@@ -1,0 +1,29 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/* Titles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", serif;
+}
+
+
+/* Body */
+
+body {
+    font-size: 1rem;
+    font-family: "Arvo", serif;
+}
