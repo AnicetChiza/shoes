@@ -12,12 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showNextItem() {
-        const nextIndex = (currentIndex + 1) % testimonials.length;
+        const nextIndex = (currentIndex + 1) % homeImage.length;
         showItem(nextIndex);
     }
 
     function showPreviousItem() {
-        const prevIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+        const prevIndex = (currentIndex - 1 + homeImage.length) % homeImage.length;
         showItem(prevIndex);
     }
 
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Initial display setup
-    testimonials.forEach((item, index) => {
+    homeImage.forEach((item, index) => {
         if (index !== currentIndex) {
             item.style.display = 'none';
         }
