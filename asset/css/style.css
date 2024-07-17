@@ -72,7 +72,6 @@ header .header-content {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* Ensure elements stack vertically */
     width: 100%;
     height: 100vh;
     position: relative;
@@ -80,14 +79,14 @@ header .header-content {
 
 .home-text {
     z-index: 10;
+    width: 70%;
+    color: #fff;
     text-align: center;
-    /* Center text horizontally */
 }
 
 .home-images {
     z-index: 1;
     position: absolute;
-    /* Position images absolutely to fill the section */
     top: 0;
     left: 0;
     width: 100%;
