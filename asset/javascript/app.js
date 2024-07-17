@@ -39,5 +39,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Auto-scroll functionality
-    setInterval(showNextItem, 9000);
+    setInterval(showNextItem, 5000);
 });
