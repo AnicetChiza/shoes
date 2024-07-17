@@ -119,6 +119,6 @@ header .header-content {
 }
 
 .circle-btn .circle.active {
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #fff;
+    border: 1px solid #fff;
 }
