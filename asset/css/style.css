@@ -84,6 +84,10 @@ header .header-content {
     text-align: center;
 }
 
+.home-text h1 {
+    color: hsla(82, 22%, 50%, 0.853);
+}
+
 .home-images {
     z-index: 1;
     position: absolute;
@@ -135,6 +139,6 @@ header .header-content {
 }
 
 .circle-btn .circle.active {
-    background-color: #fff;
-    border: 1px solid #fff;
+    background: hsla(185, 35%, 39%, 0.853);
+    border: 1px solid hsla(185, 35%, 39%, 0.853)
 }
