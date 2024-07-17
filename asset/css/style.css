@@ -51,17 +51,19 @@ header .header-content {
 }
 
 .header-content .logo img {
-    width: 5rem;
+    width: 4rem;
 }
 
 .header-content .list {
     display: flex;
+    align-items: center;
     gap: 20px;
     -webkit-column-gap: 20px;
 }
 
 .header-content .list a {
     color: #ffff;
+    font-size: 15px;
     transition-delay: 0.4s;
     transition: 0.4s ease-in-out;
 }
@@ -80,6 +82,10 @@ header .header-content {
 .header-content .list .home:hover {
     color: #827e59da;
     border-bottom: 1px solid #827e59da;
+}
+
+.header-content .list .panier {
+    font-size: 25px;
 }
 
 
