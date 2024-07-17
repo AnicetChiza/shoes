@@ -119,6 +119,11 @@ header .header-content {
     background-color: #827e59da;
 }
 
+.home-text a:hover {
+    border: 3px solid hsla(198, 28%, 77%, 0.845);
+    background-color: #141b1fda;
+}
+
 .home-images {
     z-index: 1;
     position: absolute;
