@@ -72,6 +72,12 @@ header .header-content {
     height: 100vh;
 }
 
+.home-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .home-images {
     z-index: 1;
     position: relative;
