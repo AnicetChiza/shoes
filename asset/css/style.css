@@ -37,7 +37,7 @@ header {
     position: fixed;
     z-index: 10;
     top: 0;
-    background: hsla(202, 22%, 10%, 0.853);
+    background: #141b1fda;
 }
 
 header .header-content {
@@ -62,6 +62,24 @@ header .header-content {
 
 .header-content .list a {
     color: #ffff;
+    transition-delay: 0.4s;
+    transition: 0.4s ease-in-out;
+}
+
+.header-content .list a:hover {
+    color: #827e59da;
+}
+
+.header-content .list .home {
+    border-radius: 2px;
+    transition-delay: 0.4s;
+    transition: 0.4s ease-in-out;
+    border-bottom: 1px solid #fff;
+}
+
+.header-content .list .home:hover {
+    color: #827e59da;
+    border-bottom: 1px solid #827e59da;
 }
 
 
@@ -87,7 +105,7 @@ header .header-content {
 .home-text h1 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: hsla(53, 19%, 43%, 0.853);
+    color: #827e59da;
 }
 
 .home-text a {
@@ -98,7 +116,7 @@ header .header-content {
     width: fit-content;
     padding: 10px 25px;
     border-radius: 25px;
-    background-color: hsla(53, 19%, 43%, 0.853);
+    background-color: #827e59da;
 }
 
 .home-images {
@@ -119,7 +137,7 @@ header .header-content {
     height: 100%;
     z-index: 2;
     pointer-events: none;
-    background: hsla(202, 22%, 10%, 0.853);
+    background: #141b1fda;
 }
 
 .home-images .home-bg {
@@ -152,6 +170,6 @@ header .header-content {
 }
 
 .circle-btn .circle.active {
-    background: hsla(53, 19%, 43%, 0.853);
-    border: 1px solid hsla(53, 19%, 43%, 0.853);
+    background: #827e59da;
+    border: 1px solid #827e59da;
 }
