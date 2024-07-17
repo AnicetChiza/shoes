@@ -37,7 +37,7 @@ header {
     position: fixed;
     z-index: 10;
     top: 0;
-    background: hsla(201, 17%, 29%, 0.863);
+    background: hsla(202, 22%, 10%, 0.853);
 }
 
 header .header-content {
@@ -86,7 +86,7 @@ header .header-content {
     height: 100%;
     z-index: 2;
     pointer-events: none;
-    background: hsla(201, 17%, 29%, 0.863);
+    background: hsla(202, 22%, 10%, 0.853);
 }
 
 .home-images .home-bg {
