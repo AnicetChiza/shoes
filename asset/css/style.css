@@ -85,7 +85,20 @@ header .header-content {
 }
 
 .home-text h1 {
-    color: hsla(82, 22%, 50%, 0.853);
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: hsla(53, 19%, 43%, 0.853);
+}
+
+.home-text a {
+    display: flex;
+    margin: auto;
+    color: #fff;
+    margin-top: 15px;
+    width: fit-content;
+    padding: 10px 25px;
+    border-radius: 25px;
+    background-color: hsla(53, 19%, 43%, 0.853);
 }
 
 .home-images {
@@ -139,6 +152,6 @@ header .header-content {
 }
 
 .circle-btn .circle.active {
-    background: hsla(185, 35%, 39%, 0.853);
-    border: 1px solid hsla(185, 35%, 39%, 0.853)
+    background: hsla(53, 19%, 43%, 0.853);
+    border: 1px solid hsla(53, 19%, 43%, 0.853);
 }
