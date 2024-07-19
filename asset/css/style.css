@@ -204,13 +204,15 @@ header .header-content {
 }
 
 .about .title div h4 {
-    color: #cecece;
+    font-size: 14px;
+    color: #cecece94;
+    font-style: italic;
 }
 
 .about .title div p {
     padding: 1px;
     width: 5%;
-    background-color: #cecece;
+    background-color: #cecece94;
 }
 
 .about .title h2 {
