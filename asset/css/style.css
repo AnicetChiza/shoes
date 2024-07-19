@@ -215,7 +215,7 @@ header .header-content {
 
 .about .title h2 {
     font-size: 30px;
-    color: #827e59da;
+    color: #aca356da;
     text-transform: uppercase;
 }
 
@@ -225,4 +225,8 @@ header .header-content {
     align-items: center;
     -webkit-column-gap: 10px;
     grid-template-columns: auto auto;
+}
+
+.about .about-content .about-text i {
+    color: #827e59da;
 }
