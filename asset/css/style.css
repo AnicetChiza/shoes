@@ -197,6 +197,7 @@ header .header-content {
 }
 
 .about .title h2 {
+    font-size: 30px;
     color: #827e59da;
     text-transform: uppercase;
 }
