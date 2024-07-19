@@ -196,27 +196,27 @@ header .header-content {
     padding-top: 50px;
 }
 
-.about .title div {
+.title div {
     display: flex;
     align-items: center;
     gap: 8px;
     -webkit-column-gap: 8px;
 }
 
-.about .title div h4 {
+.title div h4 {
     font-size: 14px;
     color: #cecece94;
     font-style: italic;
 }
 
-.about .title div p {
+.title div p {
     padding: 1px;
-    width: 8%;
+    width: 5%;
     background-color: #cecece94;
 }
 
-.about .title h2 {
-    font-size: 30px;
+.title h2 {
+    font-size: 25px;
     color: #aca356da;
     text-transform: uppercase;
 }
