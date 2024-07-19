@@ -237,3 +237,12 @@ header .header-content {
 .about .about-content .about-text i {
     color: #aca356da;
 }
+
+
+/* Why to choose us */
+
+.choose-us {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
