@@ -186,3 +186,21 @@ header .header-content {
     background: #827e59da;
     border: 1px solid #827e59da;
 }
+
+
+/* About us */
+
+.about {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.about .about-content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    -webkit-column-gap: 10px;
+}
+
+.about .about-content img {}
