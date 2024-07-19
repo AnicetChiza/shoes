@@ -196,6 +196,23 @@ header .header-content {
     padding-top: 50px;
 }
 
+.about .title div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.about .title div h4 {
+    color: #cecece;
+}
+
+.about .title div p {
+    padding: 1px;
+    width: 5%;
+    background-color: #cecece;
+}
+
 .about .title h2 {
     font-size: 30px;
     color: #827e59da;
@@ -203,10 +220,9 @@ header .header-content {
 }
 
 .about .about-content {
-    display: flex;
+    display: grid;
     gap: 10px;
     align-items: center;
     -webkit-column-gap: 10px;
+    grid-template-columns: auto auto;
 }
-
-.about .about-content img {}
