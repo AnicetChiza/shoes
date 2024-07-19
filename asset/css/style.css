@@ -253,8 +253,8 @@ header .header-content {
 
 .choose-us-content {
     display: grid;
-    gap: 10px;
-    -webkit-column-gap: 10px;
+    gap: 15px;
+    -webkit-column-gap: 15px;
     grid-template-columns: auto auto;
 }
 
