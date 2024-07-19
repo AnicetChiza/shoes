@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Playfair Display", serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -194,6 +194,11 @@ header .header-content {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
+}
+
+.about .title h2 {
+    color: #827e59da;
+    text-transform: uppercase;
 }
 
 .about .about-content {
