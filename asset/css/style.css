@@ -255,8 +255,6 @@ header .header-content {
 }
 
 .choose-us-item {
-    margin-top: 10px;
-    margin-bottom: 10px;
     padding: 20px 25px;
     border-radius: 5px;
     display: flex;
@@ -266,9 +264,9 @@ header .header-content {
 }
 
 .choose-us-item i {
-    padding: 10px;
+    padding: 10px 15px;
     height: fit-content;
-    border-radius: 5px;
-    background: #e0e0e0;
-    box-shadow: inset 7px 7px 14px #c1c1c1, inset -7px -7px 14px #ffffff;
+    border-radius: 35px;
+    background: #ffffff;
+    box-shadow: inset 13px 13px 26px #e3e3e3, inset -13px -13px 26px #ffffff;
 }
