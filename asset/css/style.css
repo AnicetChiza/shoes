@@ -319,7 +319,7 @@ header .header-content {
     gap: 10px;
     -webkit-column-gap: 10px;
     justify-content: space-between;
-    background: linear-gradient(to right, #141b1fda 0%, #dde1e78b 100%), url(../images/new.jpg) fixed center center;
+    background: linear-gradient(to right, #141b1fda 0%, #dde1e78b 100%), url(../images/newsletter.jpg) fixed top;
     background-size: cover;
 }
 
