@@ -365,6 +365,7 @@ button {
 .contact .contact-info .info {
     display: flex;
     gap: 10px;
+    font-size: 0.8rem;
     margin-top: 10px;
     align-items: center;
     -webkit-column-gap: 10px;
@@ -377,24 +378,52 @@ button {
 
 .contact .contact-info .info div a {
     color: #000;
-    border-bottom: 1px solid #000;
 }
 
 .contact .contact-info .info i {
-    padding: 10px 15px;
+    padding: 12px 15px;
     border-radius: 50%;
     color: #827e59da;
-    font-size: 1.2rem;
     background: linear-gradient(145deg, #e1e1e1, #ffffff);
     box-shadow: 28px 28px 53px #afafaf, -28px -28px 53px #ffffff;
+}
+
+.contact .contact-container {
+    display: flex;
+    gap: 40px;
+    -webkit-column-gap: 40px;
+    margin-top: 40px;
 }
 
 .contact input,
 textarea {
     outline: none;
-    padding: 10px 15px;
+    padding: 15px 15px;
     font-size: 0.8rem;
     width: 100%;
+    margin-top: 10px;
     border: 1px solid #cecece94;
     font-family: "Poppins", sans-serif;
+}
+
+.contact .contact-input {
+    width: 100%;
+}
+
+.contact .contact-input div {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.contact .contact-input button {
+    border: none;
+    outline: none;
+    background: unset;
+    width: fit-content;
+    color: #fff;
+    margin: auto;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #141b1fda;
 }
