@@ -362,15 +362,26 @@ button {
     padding-right: 100px;
 }
 
-.contact .contact-info div {
+.contact .contact-info .info {
     display: flex;
     gap: 10px;
+    font-size: 0.8rem;
     margin-top: 10px;
     align-items: center;
     -webkit-column-gap: 10px;
 }
 
-.contact .contact-info div i {
+.contact .contact-info .info div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .contact-info .info div a {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.contact .contact-info .info i {
     padding: 12px 15px;
     border-radius: 50%;
     color: #827e59da;
