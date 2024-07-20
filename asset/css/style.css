@@ -350,3 +350,30 @@ button {
     color: #fff;
     background-color: #141b1fda;
 }
+
+
+/*---------------------------------------/
+#Contacts
+/---------------------------------------*/
+
+.contact {
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.contact .contact-info div {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    -webkit-column-gap: 10px;
+}
+
+.contact .contact-info div i {
+    padding: 12px 15px;
+    border-radius: 50%;
+    color: #827e59da;
+    background: linear-gradient(145deg, #e1e1e1, #ffffff);
+    box-shadow: 28px 28px 53px #afafaf, -28px -28px 53px #ffffff;
+}
