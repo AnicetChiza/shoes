@@ -293,3 +293,12 @@ header .header-content {
     background: #ffffff;
     box-shadow: inset 13px 13px 26px #e3e3e3, inset -13px -13px 26px #ffffff;
 }
+
+
+/* Our products */
+
+.product {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
