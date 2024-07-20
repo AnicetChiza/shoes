@@ -337,4 +337,16 @@ button {
     border: none;
     outline: none;
     background: unset;
+    font-family: "Poppins", sans-serif;
+}
+
+.newsletter .news-input {
+    padding-left: 15px;
+    background-color: #fff;
+}
+
+.newsletter .news-input button {
+    padding: 15px 15px;
+    color: #fff;
+    background-color: #141b1fda;
 }
