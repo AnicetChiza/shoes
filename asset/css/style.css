@@ -365,7 +365,6 @@ button {
 .contact .contact-info .info {
     display: flex;
     gap: 10px;
-    font-size: 0.8rem;
     margin-top: 10px;
     align-items: center;
     -webkit-column-gap: 10px;
@@ -382,9 +381,20 @@ button {
 }
 
 .contact .contact-info .info i {
-    padding: 12px 15px;
+    padding: 10px 15px;
     border-radius: 50%;
     color: #827e59da;
+    font-size: 1.2rem;
     background: linear-gradient(145deg, #e1e1e1, #ffffff);
     box-shadow: 28px 28px 53px #afafaf, -28px -28px 53px #ffffff;
+}
+
+.contact input,
+textarea {
+    outline: none;
+    padding: 10px 15px;
+    font-size: 0.8rem;
+    width: 100%;
+    border: 1px solid #cecece94;
+    font-family: "Poppins", sans-serif;
 }
