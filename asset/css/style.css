@@ -329,8 +329,8 @@ header .header-content {
 }
 
 .prod-item img {
-    width: 330px;
-    height: 330px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
