@@ -373,7 +373,7 @@ header .header-content {
 }
 
 .prod-item .item .panier:hover {
-    background-color: #827e59da;
+    box-shadow: 13px 13px 26px #e3e3e3, -13px -13px 26px #ffffff;
 }
 
 .prod-item .item .panier a {
@@ -448,6 +448,17 @@ button {
     padding: 15px 25px;
     color: #fff;
     background-color: #141b1fda;
+}
+
+
+/*---------------------------------------/
+#Categories
+/---------------------------------------*/
+
+.categories {
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
