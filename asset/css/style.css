@@ -301,7 +301,7 @@ header .header-content {
 }
 
 .choose-us-item i {
-    padding: 10px 15px;
+    padding: 12px 15px;
     height: fit-content;
     border-radius: 35px;
     background: #ffffff;
@@ -329,6 +329,7 @@ header .header-content {
 }
 
 .prod-item {
+    border-radius: 10px;
     padding: 15px 15px;
     border: 1px solid #cecece94;
 }
@@ -337,6 +338,7 @@ header .header-content {
     width: 280px;
     height: 280px;
     object-fit: cover;
+    border-radius: 10px;
     background-color: #ebebeb9c;
 }
 
@@ -366,7 +368,8 @@ header .header-content {
     justify-content: flex;
     transition-delay: 0.4s;
     transition: 0.8s ease-in-out;
-    background-color: #141b1fda;
+    background: #c2c2c2;
+    box-shadow: inset 13px 13px 26px #e3e3e3, inset -13px -13px 26px #ffffff;
 }
 
 .prod-item .item .panier:hover {
@@ -374,7 +377,7 @@ header .header-content {
 }
 
 .prod-item .item .panier a {
-    color: #fff;
+    color: #141b1fda;
 }
 
 .more-product {
