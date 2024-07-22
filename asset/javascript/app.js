@@ -41,3 +41,32 @@ document.addEventListener('DOMContentLoaded', () => {
     // Auto-scroll functionality
     setInterval(showNextItem, 5000);
 });
+
+/**************************************
+#Categories
+***************************************/
+document.addEventListener('DOMContentLoaded', function () {
+    const categoryItems = document.querySelectorAll('.categories-list ul li');
+    const shoeCategories = document.querySelectorAll('.shoes-item');
+
+    categoryItems.forEach(item => {
+        item.addEventListener('click', function () {
+            // Remove 'active' class from all category items
+            categoryItems.forEach(catItem => catItem.classList.remove('active'));
+            // Add 'active' class to the clicked category item
+            this.classList.add('active');
+
+            // Get the filter value of the clicked item
+            const filter = this.getAttribute('data-filter');
+
+            // Show the corresponding shoes items and hide the others
+            shoeCategories.forEach(category => {
+                if (category.classList.contains(filter)) {
+                    category.style.display = 'flex';
+                } else {
+                    category.style.display = 'none';
+                }
+            });
+        });
+    });
+});
