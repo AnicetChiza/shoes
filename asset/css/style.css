@@ -502,9 +502,12 @@ button {
 
 .shoes-item .shoes div {
     position: absolute;
-    display: flex;
-    justify-content: center;
-    top: 0;
+    bottom: 20px;
+    left: 15px;
+    right: 15px;
+    font-size: 0.8rem;
+    padding: 10px 15px;
+    background-color: #fff;
 }
 
 .shoes-item .shoes img {
