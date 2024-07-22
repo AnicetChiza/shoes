@@ -328,17 +328,16 @@ header .header-content {
     gap: 20px;
 }
 
-.prod-item img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    background-color: #ebebeb7b;
+.prod-item {
+    padding: 15px 15px;
+    border: 1px solid #cecece94;
 }
 
-.prod-item .item {
-    margin-top: -6px;
-    padding: 10px 15px;
-    border: 1px solid #cecece94;
+.prod-item img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    background-color: #ebebeb9c;
 }
 
 
