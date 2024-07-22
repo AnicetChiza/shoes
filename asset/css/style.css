@@ -364,11 +364,39 @@ header .header-content {
     margin-left: auto;
     margin-top: -35px;
     justify-content: flex;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
     background-color: #141b1fda;
+}
+
+.prod-item .item .panier:hover {
+    background-color: #827e59da;
 }
 
 .prod-item .item .panier a {
     color: #fff;
+}
+
+.more-product {
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
+    background-color: #141b1fda;
+}
+
+.more-product a {
+    color: #fff;
+}
+
+.more-product:hover {
+    background-color: #827e59da;
 }
 
 
