@@ -340,6 +340,22 @@ header .header-content {
     background-color: #ebebeb9c;
 }
 
+.prod-item .item .item-details {
+    display: flex;
+    font-size: 0.8rem;
+    flex-direction: column;
+    color: #141b1fda;
+    font-weight: 600;
+}
+
+.prod-item .item .item-details a {
+    color: #141b1fda;
+}
+
+.prod-item .item .stars i {
+    color: #827e59da;
+}
+
 
 /*---------------------------------------/
 #Newsletter
