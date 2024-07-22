@@ -332,11 +332,11 @@ header .header-content {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    background-color: #cecece94;
+    background-color: #ebebeb7b;
 }
 
 .prod-item .item {
-    margin-top: -10px;
+    margin-top: -6px;
     padding: 10px 15px;
     border: 1px solid #cecece94;
 }
