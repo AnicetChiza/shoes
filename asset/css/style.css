@@ -332,6 +332,7 @@ header .header-content {
     width: 300px;
     height: 300px;
     object-fit: cover;
+    background-color: #cecece94;
 }
 
 .prod-item .item {
