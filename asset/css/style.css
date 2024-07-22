@@ -530,3 +530,17 @@ textarea {
 .contact .contact-input button:hover {
     background-color: #141b1ff5;
 }
+
+
+/*---------------------------------------/
+#Footer
+/---------------------------------------*/
+
+footer {
+    color: #fff;
+    margin-top: 50px;
+    padding: 30px 30px;
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: #141b1fda;
+}
