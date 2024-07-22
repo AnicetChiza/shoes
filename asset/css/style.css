@@ -324,9 +324,14 @@ header .header-content {
 }
 
 .prod-item img {
-    width: 300px;
-    height: 300px;
+    width: 25%;
+    height: 35vh;
     object-fit: cover;
+}
+
+.prod-item .item {
+    padding: 10px 15px;
+    background-color: #cecece94;
 }
 
 
