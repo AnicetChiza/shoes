@@ -303,7 +303,7 @@ header .header-content {
 .choose-us-item i {
     padding: 12px 15px;
     height: fit-content;
-    border-radius: 35px;
+    border-radius: 50%;
     background: #ffffff;
     box-shadow: inset 13px 13px 26px #e3e3e3, inset -13px -13px 26px #ffffff;
 }
@@ -481,10 +481,10 @@ button {
 
 .contact .contact-info .info i {
     padding: 12px 15px;
-    border-radius: 50%;
     color: #827e59da;
-    background: linear-gradient(145deg, #e1e1e1, #ffffff);
-    box-shadow: 28px 28px 53px #afafaf, -28px -28px 53px #ffffff;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: inset 13px 13px 26px #e3e3e3, inset -13px -13px 26px #ffffff;
 }
 
 .contact .contact-container {
