@@ -461,6 +461,32 @@ button {
     padding-right: 100px;
 }
 
+.categories-content {
+    margin-top: 40px;
+}
+
+.categories-list ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.categories-list ul li {
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
+    background-color: #141b1fda;
+}
+
+.categories-list ul li:hover {
+    background-color: #141b1ff5;
+}
+
 
 /*---------------------------------------/
 #Contacts
