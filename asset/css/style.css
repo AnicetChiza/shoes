@@ -357,13 +357,18 @@ header .header-content {
 }
 
 .prod-item .item .panier {
-    display: flex;
-    justify-content: flex;
     width: fit-content;
     padding: 12px 15px;
     border-radius: 50%;
-    color: #fff;
+    display: flex;
+    margin-left: auto;
+    margin-top: -35px;
+    justify-content: flex;
     background-color: #141b1fda;
+}
+
+.prod-item .item .panier a {
+    color: #fff;
 }
 
 
