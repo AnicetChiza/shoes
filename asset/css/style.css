@@ -345,7 +345,7 @@ header .header-content {
     font-size: 0.8rem;
     flex-direction: column;
     color: #141b1fda;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .prod-item .item .item-details a {
