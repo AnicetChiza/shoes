@@ -56,7 +56,7 @@ document.querySelectorAll('.bi-chevron-left').forEach(leftArrow => {
         const categorieImages = this.nextElementSibling;
         if (categorieImages && categorieImages.classList.contains('categorie-images')) {
             categorieImages.scrollBy({
-                left: -300, // ajustez cette valeur selon vos besoins
+                left: -300,
                 behavior: 'smooth'
             });
         }
@@ -68,7 +68,7 @@ document.querySelectorAll('.bi-chevron-right').forEach(rightArrow => {
         const categorieImages = this.previousElementSibling;
         if (categorieImages && categorieImages.classList.contains('categorie-images')) {
             categorieImages.scrollBy({
-                left: 300, // ajustez cette valeur selon vos besoins
+                left: 300,
                 behavior: 'smooth'
             });
         }
