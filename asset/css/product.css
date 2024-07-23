@@ -2,7 +2,7 @@
 #Product page
 /-----------------------------------*/
 
-.home {
+.pro-home {
     width: 100%;
     height: 60vh;
     display: flex;
@@ -14,7 +14,7 @@
     background-size: cover;
 }
 
-.home h3 {
+.pro-home h3 {
     font-size: 30px;
     margin-bottom: 10px;
 }
@@ -165,4 +165,26 @@
     width: 100%;
     height: 50vh;
     object-fit: cover;
+}
+
+
+/*-----------------------------------/
+#Categories
+/-----------------------------------*/
+
+.categories-home {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #141b1fda 0%, #cecece94 100%), url(../images/bg-2.jpg) no-repeat left;
+    background-size: cover;
+}
+
+.categories-home h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
 }
