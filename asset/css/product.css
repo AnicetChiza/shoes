@@ -232,5 +232,10 @@
 }
 
 .bi-chevron-left {
-    top: 45%;
+    top: 40%;
+}
+
+.bi-chevron-right {
+    right: 0;
+    top: 40%;
 }
