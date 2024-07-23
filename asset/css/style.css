@@ -64,6 +64,12 @@ header .header-content {
 
 .header-content .list {
     display: flex;
+    gap: 20px;
+    -webkit-column-gap: 20px;
+}
+
+.header-content .list-details {
+    display: flex;
     align-items: center;
     gap: 20px;
     -webkit-column-gap: 20px;
