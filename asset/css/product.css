@@ -206,7 +206,8 @@
 .categorie-images {
     display: flex;
     gap: 20px;
-    -webkit-column-gap: 20px;
+    overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 .categorie-images img {
@@ -229,13 +230,17 @@
     position: absolute;
     font-weight: 700;
     background-color: #141b1fda;
+    cursor: pointer;
 }
 
 .bi-chevron-left {
-    top: 40%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .bi-chevron-right {
     right: 0;
-    top: 40%;
+    top: 50%;
+    transform: translateY(-50%);
 }
