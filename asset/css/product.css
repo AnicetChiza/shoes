@@ -2,7 +2,7 @@
 #Product page
 /-----------------------------------*/
 
-.product-home {
+.home {
     width: 100%;
     height: 60vh;
     display: flex;
@@ -14,7 +14,7 @@
     background-size: cover;
 }
 
-.product-home h3 {
+.home h3 {
     font-size: 30px;
     margin-bottom: 10px;
 }
