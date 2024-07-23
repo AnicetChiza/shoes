@@ -109,9 +109,11 @@ header .header-content {
 .header-content .list .list-panier span {
     padding: 2px 4px;
     border-radius: 50%;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     right: -12px;
     position: absolute;
+    color: #529e78da;
+    font-weight: 600;
     background-color: #fff;
 }
 
