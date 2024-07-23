@@ -27,11 +27,12 @@
 
 .prod-type-container {
     display: grid;
+    align-items: center;
     grid-template-columns: auto auto;
 }
 
 .product-type .prod-type-item {
-    width: 80%;
+    width: 90%;
 }
 
 .big-image {
