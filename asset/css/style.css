@@ -401,7 +401,7 @@ header .header-content {
     color: #141b1fda;
 }
 
-.more-product {
+.more {
     display: flex;
     margin-top: 30px;
     margin-left: auto;
@@ -415,12 +415,12 @@ header .header-content {
     background-color: #141b1fda;
 }
 
-.more-product a {
+.more a {
     color: #fff;
 }
 
-.more-product:hover {
-    background-color: #827e59da;
+.more:hover {
+    background-color: #141b1ff5;
 }
 
 
@@ -516,7 +516,6 @@ button {
 .shoes-item {
     margin-top: 30px;
     display: none;
-    /* Cacher par défaut */
     flex-wrap: wrap;
     gap: 15px;
     -webkit-column-gap: 15px;
