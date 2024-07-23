@@ -25,26 +25,31 @@
     margin-top: 40px;
 }
 
-.big-image {
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
+.prod-type-container {
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .product-type .prod-type-item {
+    width: 80%;
+}
+
+.big-image {
     width: 100%;
+    height: 30vh;
+    object-fit: cover;
 }
 
 .product-type .prod-type-item div {
     width: 100%;
-    gap: 10px;
+    gap: 7px;
     display: grid;
-    -webkit-column-gap: 10px;
+    -webkit-column-gap: 7px;
     grid-template-columns: auto auto auto auto;
 }
 
 .small-image {
     width: 100%;
-    height: 20vh;
+    height: 70%;
     object-fit: cover;
 }
