@@ -136,6 +136,27 @@
     padding-right: 150px;
     -webkit-column-gap: 40px;
     grid-template-columns: 50% auto;
+    background: radial-gradient(circle closest-side at center, rgb(178, 183, 188) 10%, rgba(245, 245, 245, 0.8) 70%);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease-in-out infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    25% {
+        background-position: 50% 0%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .shoes-image .big-image {
