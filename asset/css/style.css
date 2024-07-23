@@ -98,8 +98,21 @@ header .header-content {
     border-bottom: 1px solid #827e59da;
 }
 
-.header-content .list .panier {
-    font-size: 22px;
+.header-content .list .list-panier {
+    position: relative;
+}
+
+.header-content .list .list-panier .panier {
+    font-size: 30px;
+}
+
+.header-content .list .list-panier span {
+    padding: 2px 4px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    right: -12px;
+    position: absolute;
+    background-color: #fff;
 }
 
 
