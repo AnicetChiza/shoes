@@ -319,6 +319,12 @@
     justify-content: space-between;
 }
 
+.pass {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
 .forgot-password {
     font-size: 0.8rem;
     margin-top: 20px;
