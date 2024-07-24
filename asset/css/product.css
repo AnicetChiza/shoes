@@ -295,7 +295,7 @@
 }
 
 .all-inputs {
-    margin-top: 8px;
+    margin-top: 10px;
     padding: 10px 20px;
     border-radius: 8px;
     background-color: #f2f2f2c4;
@@ -317,11 +317,45 @@
 
 .forgot-password {
     font-size: 0.8rem;
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: flex-end;
 }
 
 .forgot-password a {
     color: #141b1fda;
+}
+
+.forgot-password a:hover {
+    border-bottom: 1px solid #141b1fda;
+}
+
+.submit input {
+    color: #fff;
+    width: 100%;
+    padding: 10px 15px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #141b1fda;
+    font-family: "Poppins", sans-serif;
+}
+
+.account {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    justify-content: center;
+    -webkit-column-gap: 5px;
+}
+
+.account a {
+    color: #141b1fda;
+}
+
+.account a:hover {
+    border-bottom: 1px solid #141b1fda;
 }
