@@ -325,6 +325,10 @@
     -webkit-column-gap: 10px;
 }
 
+.all-inputs i {
+    color: #141b1fda;
+}
+
 .forgot-password {
     font-size: 0.8rem;
     margin-top: 20px;
