@@ -329,6 +329,14 @@
     color: #141b1fda;
 }
 
+.eyes {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
 .forgot-password {
     font-size: 0.8rem;
     margin-top: 20px;
