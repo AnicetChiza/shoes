@@ -402,7 +402,7 @@
 .left-side nav {
     display: flex;
     gap: 10px;
-    margin-left: 40px;
+    /* margin-left: 30px; */
     flex-direction: column;
     -webkit-column-gap: 10px;
 }
@@ -411,37 +411,36 @@
     display: flex;
     align-items: center;
     padding: 8px 14px;
-    gap: 10px;
-    color: #141b1fda;
-    background-color: transparent;
+    gap: 3px;
     border-radius: 50%;
+    color: #141b1fda;
+    -webkit-column-gap: 3px;
+    background-color: transparent;
     transition: background-color 0.3s, color 0.3s;
     overflow: hidden;
 }
 
 .left-side nav a span {
     display: none;
-    margin-left: 10px;
 }
 
 .left-side nav a i {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: #ececec;
     border-radius: 50%;
-    padding: 8px;
-    transition: background-color 0.3s, color 0.3s;
+    padding: 8px 13px;
+    /* transition: background-color 0.3s, color 0.3s; */
 }
 
 .left-side nav a:hover {
     background-color: #141b1fda;
     color: #fff;
-    border-radius: 25px;
-    padding-right: 20px;
-    /* Adjust padding to ensure space for the span */
+    border-radius: 30px;
 }
 
 .left-side nav a:hover span {
-    display: inline-block;
+    display: flex;
+    padding-right: 10px;
 }
 
 .left-side nav a:hover i {
@@ -451,7 +450,6 @@
 .left-side nav .act {
     color: #141b1fda;
     background-color: transparent;
-    border-radius: 50%;
 }
 
 .left-side nav .act i {
@@ -461,13 +459,10 @@
 .left-side nav .act:hover {
     background-color: #141b1fda;
     color: #fff;
-    border-radius: 25px;
-    padding-right: 20px;
-    /* Adjust padding to ensure space for the span */
 }
 
 .left-side nav .act:hover span {
-    display: inline-block;
+    display: flex;
 }
 
 .left-side nav .act:hover i {
