@@ -509,3 +509,22 @@
     margin-top: 45px;
     background-color: green;
 }
+
+.myprofil {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myprofil-details {
+    width: 70%;
+    padding: 20px 20px;
+    box-shadow: 0px 1px 10px #f4f3f3f7;
+}
+
+.myprofil img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
