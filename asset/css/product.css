@@ -419,6 +419,31 @@
     background-color: #ececec;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+    overflow: hidden;
+}
+
+.left-side nav a span {
+    display: none;
+    transition: display 0.3s;
+}
+
+.left-side nav a i {
+    font-size: 1.5rem;
+}
+
+.left-side nav a:hover {
+    background-color: #141b1fda;
+    color: #fff;
+}
+
+.left-side nav a:hover span {
+    display: inline-block;
+}
+
+.left-side nav a:hover .icon-container {
+    background-color: #141b1fda;
+    color: #fff;
 }
 
 .left-side nav .act {
@@ -426,6 +451,7 @@
     background-color: #141b1fda;
 }
 
-.left-side nav a i {
-    font-size: 1.5rem;
+.left-side nav .act .icon-container {
+    background-color: #141b1fda;
+    color: #fff;
 }
