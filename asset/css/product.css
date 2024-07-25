@@ -387,10 +387,48 @@
 #Dashboard
 /-----------------------------------*/
 
+.order-container {
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.order-prod {
+    display: grid;
+    align-items: center;
+    gap: 5px;
+    padding-right: 20px;
+    margin-top: 30px;
+    -webkit-column-gap: 5px;
+    box-shadow: 0px 1px 10px #ececec;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
 .order-prod img {
     width: 150px;
     height: 150px;
     object-fit: cover;
+}
+
+.quantity {
+    width: 50%;
+    border: 1px solid red;
+}
+
+.quantity input {
+    border: none;
+    outline: none;
+    width: fit-content;
+    background: unset;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px #ececec;
+    font-family: "Poppins", sans-serif;
+}
+
+.delete a {
+    color: #ae4a4a;
 }
 
 
