@@ -400,7 +400,6 @@
 }
 
 .left-side nav {
-    width: 100%;
     display: flex;
     gap: 10px;
     margin-left: 40px;
@@ -409,16 +408,14 @@
 }
 
 .left-side nav a {
-    width: 100%;
     display: flex;
     gap: 10px;
-    padding: 8px 15px;
+    padding: 8px 14px;
     color: #141b1fda;
     align-items: center;
     -webkit-column-gap: 10px;
     background-color: #ececec;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-radius: 50%;
     transition: background-color 0.3s, color 0.3s;
     overflow: hidden;
 }
