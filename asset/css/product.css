@@ -410,11 +410,6 @@
     object-fit: cover;
 }
 
-.quantity {
-    width: fit-content;
-    border: 1px solid red;
-}
-
 .quantity input {
     border: none;
     outline: none;
@@ -429,6 +424,12 @@
 
 .delete a {
     color: #ae4a4a;
+}
+
+.our-panier-prod {
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 
