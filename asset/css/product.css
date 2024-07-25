@@ -473,6 +473,9 @@
     position: relative;
     display: flex;
     align-items: center;
+    padding-right: 100px;
+    margin-top: 20px;
+    justify-content: flex-end;
 }
 
 .top-profil span {
