@@ -514,8 +514,8 @@ button {
 }
 
 .shoes-item {
-    margin-top: 30px;
     display: none;
+    margin-top: 30px;
     flex-wrap: wrap;
     gap: 15px;
     -webkit-column-gap: 15px;
