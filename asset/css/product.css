@@ -566,3 +566,30 @@
     border-radius: 50%;
     border: 1px solid #141b1fda;
 }
+
+.myprofil-details form {
+    margin-top: 30px;
+}
+
+.myprofil-details form div {
+    display: grid;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.myprofil-details input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: #e2e2e2a7;
+    font-family: "Poppins", sans-serif;
+}
+
+.myprofil-details form .sub input {
+    margin-top: 20px;
+    width: 100%;
+    color: #ffff;
+    border-radius: 25px;
+    background-color: #141b1fda;
+}
