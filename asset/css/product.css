@@ -387,7 +387,7 @@
 #User dashboard
 /-----------------------------------*/
 
-.dashboard {
+.user-dashboard {
     display: grid;
     grid-template-columns: 25% auto;
 }
