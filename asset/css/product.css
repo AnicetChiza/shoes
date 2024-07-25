@@ -510,6 +510,10 @@
     background-color: green;
 }
 
+.profil-details {
+    margin-top: 30px;
+}
+
 .myprofil {
     margin-top: 30px;
     display: flex;
@@ -526,6 +530,7 @@
 
 .profil-intro {
     display: flex;
+    margin-top: 20px;
     align-items: center;
     flex-direction: column;
 }
@@ -536,4 +541,28 @@
     object-fit: cover;
     margin-top: 20px;
     border-radius: 50%;
+}
+
+.all-info {
+    margin-top: 20px;
+    display: grid;
+    gap: 10px;
+    padding-bottom: 30px;
+    -webkit-column-gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+.all-info div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 10px;
+    -webkit-column-gap: 10px;
+    background-color: #f4f3f3f7;
+}
+
+.all-info div i {
+    padding: 10px 13px;
+    border-radius: 50%;
+    border: 1px solid #141b1fda;
 }
