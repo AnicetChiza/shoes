@@ -468,3 +468,24 @@
 .left-side nav .act:hover i {
     background-color: transparent;
 }
+
+.top-profil div {
+    padding: 10px 10px 5px 10px;
+    width: fit-content;
+    border-radius: 100%;
+    background-color: #cecece94;
+}
+
+.top-profil img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.top-profil .online {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: green;
+}
