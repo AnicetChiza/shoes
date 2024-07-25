@@ -398,7 +398,7 @@
     align-items: center;
     gap: 5px;
     padding-right: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
     -webkit-column-gap: 5px;
     box-shadow: 0px 1px 10px #ececec;
     grid-template-columns: auto auto auto auto auto auto;
@@ -411,7 +411,7 @@
 }
 
 .quantity {
-    width: 50%;
+    width: fit-content;
     border: 1px solid red;
 }
 
