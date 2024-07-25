@@ -402,13 +402,17 @@
 .left-side nav {
     display: flex;
     gap: 10px;
-    margin-left: 30px;
+    margin-left: 40px;
     flex-direction: column;
     -webkit-column-gap: 10px;
 }
 
 .left-side nav a {
+    display: flex;
+    gap: 10px;
     color: #141b1fda;
+    align-items: center;
+    -webkit-column-gap: 10px;
 }
 
 .left-side nav a i {
