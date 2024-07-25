@@ -408,11 +408,14 @@
 }
 
 .left-side nav a {
+    width: 100%;
     display: flex;
     gap: 10px;
+    padding: 10px 15px;
     color: #141b1fda;
     align-items: center;
     -webkit-column-gap: 10px;
+    background-color: #ececec;
 }
 
 .left-side nav a i {
