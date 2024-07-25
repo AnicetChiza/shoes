@@ -381,3 +381,27 @@
 .account a:hover {
     border-bottom: 1px solid #141b1fda;
 }
+
+
+/*-----------------------------------/
+#User dashboard
+/-----------------------------------*/
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 25% auto;
+}
+
+.left-side {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.left-side nav {
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    flex-direction: column;
+    -webkit-column-gap: 10px;
+}
