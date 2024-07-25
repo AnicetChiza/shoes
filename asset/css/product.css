@@ -406,3 +406,11 @@
     flex-direction: column;
     -webkit-column-gap: 10px;
 }
+
+.left-side nav a {
+    color: #141b1fda;
+}
+
+.left-side nav a i {
+    font-size: 1.5rem;
+}
