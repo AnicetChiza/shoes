@@ -432,6 +432,21 @@
     padding-right: 100px;
 }
 
+.our-buttons {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    justify-content: flex-end;
+}
+
+.our-buttons button {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #141b1fda;
+}
+
 
 /*-----------------------------------/
 #User profil
