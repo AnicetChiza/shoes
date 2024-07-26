@@ -401,6 +401,14 @@
     box-shadow: 0px 1px 10px #e2e2e2a7;
 }
 
+.order-prod div {
+    text-align: center;
+}
+
+.order-prod div span {
+    color: #9a9a9a;
+}
+
 .order-prod img {
     width: 150px;
     height: 150px;
@@ -412,6 +420,24 @@
     outline: none;
     width: 70px;
     background: unset;
+}
+
+.delete a {
+    color: #a35454;
+}
+
+.price {
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+    color: #fff;
+    width: fit-content;
+    text-align: right;
+    font-size: 0.8rem;
+    padding: 5px 25px;
+    margin-top: -30px;
+    text-align: center;
+    background-color: #141b1fda;
 }
 
 
