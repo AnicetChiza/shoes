@@ -75,6 +75,11 @@ header .header-content {
     -webkit-column-gap: 20px;
 }
 
+.header-content .list {
+    display: flex;
+    align-items: center;
+}
+
 .header-content .list a {
     color: #ffff;
     font-size: 15px;
