@@ -396,6 +396,8 @@
 .order-prod {
     display: flex;
     align-items: center;
+    gap: 20px;
+    -webkit-column-gap: 20px;
     justify-content: space-between;
     margin-bottom: 20px;
 }
@@ -408,9 +410,6 @@
 
 .order-prod>div:last-child {
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .total-price {
