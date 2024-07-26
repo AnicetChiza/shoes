@@ -395,24 +395,49 @@
 
 .order-prod {
     display: flex;
-    gap: 15px;
-    -webkit-column-gap: 15px;
-    box-shadow: 0px 1px 10px #ebebeb9c;
-}
-
-.tot-price {
-    display: flex;
-}
-
-.price {
-    display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .order-prod img {
     width: 150px;
     height: 150px;
     object-fit: cover;
+}
+
+.order-prod>div:last-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.total-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tot-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price {
+    align-self: flex-end;
+    text-align: right;
+}
+
+.delete a {
+    color: #b04242;
+}
+
+.our-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 
