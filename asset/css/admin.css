@@ -24,11 +24,22 @@
 
 .admin-section {
     display: grid;
-    margin-top: 80px;
+    margin-top: 75px;
     grid-template-columns: 25% auto;
 }
 
 .first-bloc nav {
     display: flex;
+    height: 100vh;
+    padding-top: 30px;
     flex-direction: column;
+    background-color: #141b1fda;
+    box-shadow: 0px 1px 10px #ececec;
+}
+
+.first-bloc nav a {
+    display: flex;
+    gap: 10px;
+    padding-left: 25px;
+    -webkit-column-gap: 10px;
 }
