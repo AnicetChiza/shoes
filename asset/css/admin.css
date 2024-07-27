@@ -114,6 +114,14 @@
     box-shadow: inset 13px 13px 26px #e3e3e3, inset -13px -13px 26px #ffffff;
 }
 
+.bloc-content div p {
+    font-weight: 500;
+}
+
+.bloc-content div span {
+    color: #9a9a9a;
+}
+
 .bloc-content div:hover {
     color: #fff;
     background-color: #141b1fda;
