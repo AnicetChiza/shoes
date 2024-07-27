@@ -77,6 +77,8 @@
     padding-left: 20px;
     padding-right: 50px;
     align-items: center;
+    gap: 30px;
+    -webkit-column-gap: 30px;
     justify-content: center;
 }
 
