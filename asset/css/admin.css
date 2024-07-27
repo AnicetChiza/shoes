@@ -72,6 +72,20 @@
 .all-items {
     height: 90vh;
     display: flex;
+    gap: 15px;
     align-items: center;
     justify-content: center;
+    -webkit-column-gap: 15px;
+}
+
+.all-items div {
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    -webkit-column-gap: 10px;
+    box-shadow: 0px 1px 10px #ececec;
 }
