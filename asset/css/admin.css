@@ -22,6 +22,12 @@
     font-size: 1.5rem;
 }
 
+.admin-section {
+    display: grid;
+    margin-top: 80px;
+    grid-template-columns: 25% auto;
+}
+
 .first-bloc nav {
     display: flex;
     flex-direction: column;
