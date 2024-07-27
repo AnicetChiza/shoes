@@ -24,7 +24,7 @@
 
 .admin-section {
     display: grid;
-    margin-top: 75px;
+    margin-top: 70px;
     grid-template-columns: 20% auto;
 }
 
@@ -45,6 +45,13 @@
     padding: 10px 25px;
     align-items: center;
     -webkit-column-gap: 10px;
+    transition-delay: 0.2s;
+    transition: 0.5s ease-in-out;
+}
+
+.first-bloc nav a:hover {
+    color: #141b1fda;
+    background-color: #fff;
 }
 
 .first-bloc nav .activ {
