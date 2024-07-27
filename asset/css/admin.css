@@ -1,0 +1,15 @@
+/*----------------------------------/
+#ADMIN CSS PAGE
+/----------------------------------*/
+
+.header-admin {
+    display: flex;
+    color: #fff;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin-menu i {
+    font-size: 1.5rem;
+}
