@@ -21,3 +21,8 @@
 .admin-menu i {
     font-size: 1.5rem;
 }
+
+.first-bloc nav {
+    display: flex;
+    flex-direction: column;
+}
