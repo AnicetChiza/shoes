@@ -120,6 +120,7 @@
 
 .bloc-content div span {
     color: #9a9a9a;
+    font-weight: 600;
 }
 
 .bloc-content div:hover {
