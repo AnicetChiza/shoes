@@ -72,6 +72,8 @@
 
 .all-items {
     height: 90vh;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .it {
@@ -79,7 +81,6 @@
     flex-wrap: wrap;
     padding-left: 20px;
     padding-right: 50px;
-    align-items: center;
     justify-content: center;
     gap: 30px;
     -webkit-column-gap: 30px;
