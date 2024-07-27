@@ -28,6 +28,11 @@
     grid-template-columns: 20% auto;
 }
 
+
+/* ------------------------- /
+#
+/ ------------------------- */
+
 .first-bloc nav {
     display: flex;
     height: 100vh;
