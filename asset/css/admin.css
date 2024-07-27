@@ -35,7 +35,7 @@
 
 .first-bloc nav {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     padding-top: 30px;
     gap: 10px;
     flex-direction: column;
@@ -62,4 +62,15 @@
 .first-bloc nav .activ {
     color: #141b1fda;
     background-color: #fff;
+}
+
+
+/* ------------------------- /
+#
+/ ------------------------- */
+
+.all-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
