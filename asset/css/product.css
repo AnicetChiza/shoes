@@ -305,6 +305,17 @@
     background: #f4f3f3f7;
 }
 
+select {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
 .all-inputs input {
     border: none;
     outline: none;
