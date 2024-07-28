@@ -156,3 +156,42 @@
 .newsletter-form form h3 {
     margin-bottom: 20px;
 }
+
+
+/* ------------------------- /
+#Shipment
+/ ------------------------- */
+
+.shipment {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.date {
+    display: flex;
+    color: #9a9a9a;
+    font-weight: 500;
+    font-size: 0.8rem;
+    justify-content: flex-end;
+}
+
+.shipment-details {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    -webkit-column-gap: 10px;
+}
+
+.shipment-details div {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+    display: grid;
+    gap: 4px;
+    -webkit-column-gap: 4px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px #d9d9d9b8;
+}
