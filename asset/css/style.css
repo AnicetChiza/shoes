@@ -122,6 +122,11 @@ header .header-content {
     background-color: #fff;
 }
 
+.indicator i {
+    font-size: 0.7rem;
+    color: #4CAF50;
+}
+
 
 /*---------------------------------------/
 #Home page
