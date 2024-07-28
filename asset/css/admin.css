@@ -213,13 +213,14 @@
 .add-slide {
     display: flex;
     font-size: 0.8rem;
-    padding: 10px 15px;
+    padding: 15px 20px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 25px;
     width: fit-content;
-    margin-left: auto;
     transition-delay: 0.4s;
     transition: 0.8s ease-in-out;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #141b1fda;
 }
 
@@ -237,8 +238,32 @@
     color: #141b1fda;
 }
 
+.slide-items {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    -webkit-column-gap: 10px;
+}
+
 .slide-items img {
     width: 250px;
     height: 250px;
     object-fit: cover;
+}
+
+.slide-items div {
+    position: relative;
+}
+
+.slide-items div i {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: #ad4949;
+    padding: 12px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fff;
 }
