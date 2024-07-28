@@ -217,7 +217,8 @@
     margin-bottom: 30px;
 }
 
-.add-slide {
+.add-slide,
+.add-shoes {
     display: flex;
     font-size: 0.8rem;
     padding: 15px 20px;
@@ -231,7 +232,8 @@
     background-color: #141b1fda;
 }
 
-.add-slide a {
+.add-slide a,
+.add-shoes a {
     font-weight: 500;
     color: #ffff;
 }
