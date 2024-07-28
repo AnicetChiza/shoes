@@ -163,9 +163,10 @@
 / ------------------------- */
 
 .shipment {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding-bottom: 30px;
+    border-top: 1px dashed #9a9a9a;
 }
 
 .date {
@@ -173,6 +174,7 @@
     color: #9a9a9a;
     font-weight: 500;
     font-size: 0.8rem;
+    margin-top: 20px;
     justify-content: flex-end;
 }
 
@@ -181,6 +183,7 @@
     gap: 10px;
     flex-wrap: wrap;
     margin-top: 20px;
+    justify-content: center;
     -webkit-column-gap: 10px;
 }
 
