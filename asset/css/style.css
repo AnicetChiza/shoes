@@ -80,14 +80,14 @@ header .header-content {
     align-items: center;
 }
 
-.header-content .list a {
+.header-content .list-details a {
     color: #ffff;
     font-size: 15px;
     transition-delay: 0.4s;
     transition: 0.4s ease-in-out;
 }
 
-.header-content .list a:hover {
+.header-content .list-details a:hover {
     color: #827e59da;
 }
 
@@ -109,6 +109,7 @@ header .header-content {
 
 .header-content .list .list-panier .panier {
     font-size: 30px;
+    color: #fff;
 }
 
 .header-content .list .list-panier span {
@@ -133,15 +134,13 @@ header .header-content {
     right: 30px;
     display: flex;
     gap: 20px;
-    padding: 20px 40px;
+    padding: 20px 30px;
     flex-direction: column;
     -webkit-column-gap: 20px;
-    background-color: #dde1e73a;
+    background-color: #fff;
 }
 
-.dashboard-user a {
-    color: #00000017;
-}
+.dashboard-user a {}
 
 
 /*---------------------------------------/
