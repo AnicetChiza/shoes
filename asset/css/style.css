@@ -122,9 +122,22 @@ header .header-content {
     background-color: #fff;
 }
 
-.indicator i {
-    font-size: 0.7rem;
-    color: #4CAF50;
+.indicator .bi-chat-right-dots {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.dashboard-user {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    display: flex;
+    padding: 20px 20px;
+    flex-direction: column;
+}
+
+.dashboard-user a {
+    color: #00000017;
 }
 
 
