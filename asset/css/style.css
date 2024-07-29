@@ -65,6 +65,7 @@ header .header-content {
 .header-content .list {
     display: flex;
     gap: 20px;
+    align-items: center;
     -webkit-column-gap: 20px;
 }
 
@@ -131,20 +132,24 @@ header .header-content {
 
 .dashboard-user {
     position: absolute;
-    top: 40px;
+    top: 50px;
     right: 30px;
     display: flex;
     display: none;
     flex-direction: column;
     background-color: #fff;
-    transition-delay: 0.4s;
-    transition: 0.8s ease-in-out;
 }
 
 .dashboard-user a {
     color: #141b1fda;
     padding: 15px 50px;
     border: 1px solid #eaeaea;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
+}
+
+.dashboard-user a:hover {
+    background-color: #eaeaea;
 }
 
 .indicator:hover .dashboard-user {
