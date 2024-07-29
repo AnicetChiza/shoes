@@ -125,6 +125,7 @@ header .header-content {
 
 .indicator .bi-chat-right-dots {
     color: #fff;
+    cursor: pointer;
     font-size: 1.2rem;
 }
 
@@ -133,14 +134,24 @@ header .header-content {
     top: 70px;
     right: 30px;
     display: flex;
-    gap: 20px;
-    padding: 20px 30px;
+    display: none;
     flex-direction: column;
-    -webkit-column-gap: 20px;
     background-color: #fff;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
 }
 
-.dashboard-user a {}
+.dashboard-user a {
+    color: #141b1fda;
+    padding: 15px 50px;
+    margin-top: 10px;
+    align-items: start;
+    border: 1px solid #eaeaea;
+}
+
+.indicator .bi-chat-right-dots:hover .dashboard-user {
+    display: initial;
+}
 
 
 /*---------------------------------------/
