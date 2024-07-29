@@ -131,7 +131,7 @@ header .header-content {
 
 .dashboard-user {
     position: absolute;
-    top: 70px;
+    top: 40px;
     right: 30px;
     display: flex;
     display: none;
@@ -148,8 +148,8 @@ header .header-content {
     border: 1px solid #eaeaea;
 }
 
-.indicator .bi-chat-right-dots:hover .dashboard-user {
-    display: initial;
+.indicator:hover .dashboard-user {
+    display: flex;
 }
 
 
